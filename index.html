@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon - Base Apparell</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <img src="images/logo.svg" alt="Base Apparell logo">
-        <h1>We're coming soon</h1>
-        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        <form action="/action_page.php">
-            <label for="email">Email address</label>
-            <input type="email">
-            <input type="submit">
-        </form>
-    </div>
-    <img src="images/hero-desktop.jpg" alt="Woman using Base Apparell products">
+    <section class="principal">
+        <div class="principal__conteudo">
+            <img src="images/logo.svg" alt="Base Apparell logo">
+            <h1 class="principal__titulo">We're <strong class="titulo__destaque">coming soon</strong></h1>
+            <p class="principal__texto">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+            <form class="principal__formulario">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email"> 
+                <input type="submit">
+            </form>
+        </div>
+        <img src="images/hero-desktop.jpg" alt="Woman using Base Apparell products" class="principal__imagem">
+    </section>
 </body>
 </html>
