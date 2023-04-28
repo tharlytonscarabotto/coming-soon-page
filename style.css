@@ -91,5 +91,12 @@ body {
     color: red;
     margin-top: .5rem;
     margin-left: 1.5rem;
-    display: block;
+    display: none;
+}
+
+.imagem_erro {
+    position: absolute;
+    top: 35.4rem;
+    left: 22rem;
+    display: none;
 }
