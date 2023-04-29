@@ -20,7 +20,12 @@
             <img src="images/icon-error.svg" alt="erro" class="imagem_erro">
             <p class="mensagem_erro">Please provide a valid email</p>
         </div>
-        <img src="images/hero-desktop.jpg" alt="Woman using Base Apparell products" class="principal__imagem">
+        <picture>
+            <source media="(max-width: 1200px)" srcset="images/hero-mobile.jpg">
+            <source media="(min-width: 1201px)" srcset="images/hero-desktop.jpg">
+            <img src="images/hero-desktop.jpg" alt="Woman using Base Apparell products" class="principal__imagem">
+        </picture>
+        <!-- <img src="images/hero-desktop.jpg" alt="Woman using Base Apparell products" class="principal__imagem"> -->
     </section>
 
     <script src="main.js"></script>
